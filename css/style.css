@@ -1,0 +1,184 @@
+@import url("Component/card.css");
+
+.main{
+	padding: 10px;
+}
+
+.navbar{
+	font-family: 'Antic Didone', serif;
+}
+
+.text-c{
+	padding: 5px;
+}
+
+.map-container-9,
+ {
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-9 iframe
+{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.carousel-item{
+    height: 550px;
+} 
+.carousel-item img{
+    height: 550px;
+    object-fit:cover;
+}
+
+.carousel-item h1{
+	font-family: 'Antic Didone', serif;
+}
+
+.carousel-item p{
+	font-family: 'Antic Didone', serif;
+}
+
+.btn{
+	font-family: 'Antic Didone', serif;
+}
+
+.intro{
+	text-align: center;
+	font-family: 'Antic Didone', serif;
+}
+
+#pic{
+	border-radius: 50px 5px;
+	height: 300px;
+	width: 600px;
+	box-shadow: 0px 0px 10px grey;
+}
+
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:10px;
+}
+
+.sbl{
+	margin-top: 25px;
+	font-family: 'Antic Didone', serif;
+}
+
+.text-highlight {
+  font-style: normal;
+  border-radius: 1em 0 1em 0;
+  background-image: 
+    linear-gradient(-100deg, #ff000038, #e2141491 100%, #ff00009e );
+}
+
+
+.col-lg-7{
+	padding:75px;
+}
+
+p {
+    margin: 5px;
+}
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+  height: 55px;
+}
+
+/* this is to remove any small hoverstate underline of icons */
+.list-inline a{
+	text-decoration: none;
+}
+
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+
+
+.list-inline i{
+	color: rgb(230,230,230);
+	font-size: 30px;
+}
+
+/* colour when hovering over the social media buttons*/
+.list-inline i:hover{
+	color: black;
+}
+
+.card-img-overlay{
+	text-align: center;
+	position: absolute;
+	top: 150px;
+}
+
+.app{
+	padding: 3px;
+	padding-right: 40px;
+	text-align: center;
+}
+
+
+.dwnldtext{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card-img {
+    height: 450px;
+}
+
+.typeform{
+	text-align:center;
+	margin-left: 110px;
+}
+
+.container {
+    margin: 30px auto;
+    width: 1500px;
+}
+
+.container p{
+	text-align: center;
+	font-family: 'Antic Didone', serif;
+}
+
+.container h2{
+	text-align: center;
+	font-family: 'Antic Didone', serif;
+}
+
+.container img {
+	border-radius: 50px 5px;
+	margin-left: 62px;
+	margin-bottom: 35px;
+	box-shadow: 0px 0px 10px grey;
+}
+
+.container h1{
+	font-family: 'Antic Didone', serif;
+}
+
+.container iframe{
+	margin-left: 62px;
+}
+
+.download{
+	list-style: none;
+}
+
+.footer{
+	font-family: 'Antic Didone', serif;
+}
+
